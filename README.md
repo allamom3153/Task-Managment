@@ -57,7 +57,7 @@ Make sure your JAR file is created by running:
 Update src/main/resources/application.properties for database connection if needed:
 
 **properties**
-spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
+spring.datasource.url=jdbc:mysql://localhost:3306/taskMgmtDB
 spring.datasource.username=root
 spring.datasource.password=password
 spring.jpa.hibernate.ddl-auto=update
